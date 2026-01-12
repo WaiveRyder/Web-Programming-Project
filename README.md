@@ -17,11 +17,11 @@ An application to keep track of your gym's members to keep climbers climbing and
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
@@ -51,12 +51,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Provide a structure to the website ensuring staff can find what they need.
-- **CSS** - By creating a smooth workflow through efficient and pleasing to look at site.
-- **React** - React will make the webpage interactable for staff members to make edits to accounts.
-- **Service** - Allow staff to access accounts from anywhere in the gym, or across multiple gym locations.
-- **DB/Login** - Ensure only staff can make edits to the system and store guest and member details.
-- **WebSocket** - Prevent Staff from editing the same account and overriding eachother's work.
+- **HTML** - Provide a structure to the website ensuring users can find what they need. Two pages, one for logging in and one for displaying the guests and members. A smaller popup window will be needed to display more info of the guests.
+- **CSS** - By creating a smooth workflow through efficient and pleasing to look at site. Scaling on different screen sizes, using smoother edges and bright colors will allow for a modern sleek design.
+- **React** - React will make the webpage interactable for users to login, make edits to accounts, show other users working on accounts, and showing the list of guests/members.
+- **Service** - Allow users to access accounts from anywhere. Retrieves member's and guest's data, edits from the user to be saved, current editing from other users, logging in and signing up, and retreiving motivation quotes from [ZenQuotes](https://zenquotes.io?api=today)
+- **DB/Login** - Ensure only certified users can make edits to the system and store guest and member accounts/details.
+- **WebSocket** - Prevent users from editing the same account and overriding eachother's work. Shows which accounts are locked because other users are currently editing them.
 
 ## 🚀 AWS deliverable
 
